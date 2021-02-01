@@ -41,7 +41,7 @@ h1.setAttribute('class','display-4');
 h1.innerHTML = 'Custom Pagination';
 var p = document.createElement('p');
 p.setAttribute('class','lead');
-p.innerHTML = 'Use the Slider to set required Records Size!!!';
+p.innerHTML = 'Pagination with one-time api call. Use the Slider to set required Records Size!!!';
 
 jumbotron.append(h1,p);
 
