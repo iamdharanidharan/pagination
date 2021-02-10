@@ -14,13 +14,6 @@ dataRequest.onload = () => {
     getRecords(recordsNumber, 0, false); //Set initial Table data
 }
 
-// Link bootstrap
-var css = document.createElement('link');
-css.setAttribute('rel', 'stylesheet');
-css.setAttribute('href', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css');
-document.head.append(css);
-
-
 // Page container
 var divContainer = document.createElement('div');
 divContainer.setAttribute('class', 'container');
